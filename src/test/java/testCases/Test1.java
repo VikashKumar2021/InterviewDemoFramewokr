@@ -21,7 +21,7 @@ public class Test1 {
 		driver.get("http://www.ebay.in");
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
-		
+		System.out.println("Completed");
 	}
 
 }
