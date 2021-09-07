@@ -24,6 +24,10 @@ public class Test1 {
 		System.out.println("Completed");
 		System.out.println("Bhosdi ke commit ho jao na bhai");
 		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
+		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
+		System.out.println("Completed");
+		System.out.println("Bhosdi ke commit ho jao na bhai");
+		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
 	}
 
 }
