@@ -22,6 +22,8 @@ public class Test1 {
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
 		System.out.println("Completed");
+		System.out.println("Bhosdi ke commit ho ja");
+		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
 	}
 
 }
